@@ -1,0 +1,30 @@
+{
+  "name": "training_plan_server",
+  "version": "1.0.0",
+  "description": "Training Plan Server",
+  "author": "Phuc Bui",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env nodemon --exec babel-node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.1.1",
+    "hapi": "^16.6.2",
+    "joi": "^13.0.1",
+    "mongoose": "^4.13.0",
+    "nconf": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.12.1"
+  }
+}
